@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+"""An asynchronous coroutine wait_n"""
+import asyncio
+from asyncio import Task
+from typing import List, Callable
+wait_random: Callable[[int], float] = __import__(
+    '0-basic_async_syntax').wait_random
+
+
+def task_wait_random(max_delay: int) -> Task[float]:
+    return asyncio.create_task(wait_random(max_delay))

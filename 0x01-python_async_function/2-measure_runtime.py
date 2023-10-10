@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """An asynchronous coroutine measure_time"""
 import asyncio
-from typing import List, Callable
 import time
 
 wait_n = __import__(

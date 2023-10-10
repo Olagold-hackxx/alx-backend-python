@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """An asynchronous coroutine wait_n"""
 from typing import List, Callable
-wait_random: Callable[[int], float] = __import__(
+wait_random = __import__(
     '0-basic_async_syntax').wait_random
 
 

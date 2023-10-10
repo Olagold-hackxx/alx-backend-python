@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
+"""A coroutine"""
 import asyncio
 import random
 from typing import Generator
-"""A coroutine"""
 
 
 async def async_generator() -> Generator[float, None, None]:

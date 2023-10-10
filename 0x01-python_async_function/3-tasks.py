@@ -2,7 +2,6 @@
 """An asynchronous coroutine wait_n"""
 import asyncio
 from asyncio import Task
-from typing import List, Callable
 
 wait_random = __import__(
     '0-basic_async_syntax').wait_random

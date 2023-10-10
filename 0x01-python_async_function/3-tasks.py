@@ -3,6 +3,7 @@
 import asyncio
 from asyncio import Task
 from typing import List, Callable
+
 wait_random: Callable[[int], float] = __import__(
     '0-basic_async_syntax').wait_random
 
